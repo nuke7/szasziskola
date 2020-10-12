@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my first website</title>
+</head>
+<main>
+
+    <body>
+
+        <header>
+            <style>
+                img {
+                    /*display: block;*/
+                    width: 99%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-top: 5px solid black;
+                }
+                
+                main {
+                    padding-bottom: 400px;
+                }
+                
+                img {
+                    /*display: block;*/
+                    width: 99%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-top: 5px solid black;
+                }
+                
+                #gif {
+                    width: 300px;
+                    height: 150px;
+                    position: -webkit-sticky;
+                    position: sticky;
+                    /* position: absolute;*/
+                    top: 320px;
+                    color: white;
+                    background-color: white;
+                    opacity: 0;
+                }
+                
+                #gif:hover {
+                    opacity: 100;
+                }
+                
+                small {
+                    font-size: 0.5em;
+                }
+                
+                .title {
+                    /*display: block;*/
+                    /*position: absolute;
+                    /*top: 250px;
+                    left: 340px;*/
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: -175px;
+                    margin-bottom: 0px;
+                    /*text-align: center;*/
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 60px;
+                    line-height: 50px;
+                    color: #222;
+                }
+                
+                .title:hover {
+                    color: white;
+                }
+                
+                .img-wrap {
+                    /*display: flex;
+                    justify-content: center;
+                    align-items: center;*/
+                }
+                
+                header {
+                    width: 1280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    /*position: absolute;
+                    top: 0;*/
+                    margin-top: -8px;
+                }
+                
+                .content {
+                    position: relative;
+                    width: 51%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    /*position: absolute;*/
+                    /*left: 320px;
+                    /*margin-left: 320px;
+                    margin-right: 325px;*/
+                    margin-top: none;
+                    font-family: 'Josefin Sans', sans-serif;
+                    line-height: 150%;
+                    font-size: 1.1em;
+                    font-weight: 300;
+                    color: #222;
+                    /*padding-left: 60px;*/
+                }
+                
+                main {
+                    background-color: whitesmoke;
+                    /*width: 1280px;*/
+                }
+                
+                .achievement {
+                    font-size: 16px;
+                    line-height: 1.3em;
+                }
+                
+                .container {
+                    width: 1280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                @counter-style galaxy {
+                    system: cyclic;
+                    symbols: "\1F9F1" "\1F3DB" "\1F3D7" "\1F3D8";
+                    suffix: " ";
+                }
+                
+                ul {
+                    list-style-type: galaxy;
+                    margin-bottom: 50px;
+                }
+                
+                blockquote::before {
+                    content: '\201C';
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 130px;
+                    color: white;
+                    position: absolute;
+                    top: 38px;
+                    left: 0px;
+                }
+                
+                blockquote {
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 42px;
+                    color: white;
+                    width: 110%;
+                    background-color: #222;
+                    margin: auto;
+                    padding: 10px 10px 10px 45px;
+                    position: relative;
+                    right: 6%;
+                    /*border-left: 10px solid #222;*/
+                    /*text-align: center;*/
+                    box-sizing: border-box;
+                    line-height: 1.5em;
+                }
+                
+                blockquote:hover {
+                    /*color: #222;*/
+                    background-color: pink;
+                    cursor: pointer;
+                }
+                
+                blockquote:active {
+                    color: #222;
+                }
+                
+                h1 {
+                    margin-top: 60px;
+                    margin-bottom: 40px;
+                    text-transform: uppercase;
+                    font-size: 25px;
+                }
+                
+                h2 {
+                    font-size: 20px;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                h3 {
+                    font-family: 'Merriweather', cursive;
+                    font-size: 15px;
+                    margin-top: 0px;
+                }
+                
+                .h2small {
+                    margin-bottom: 0px;
+                }
+                
+                .experience {
+                    list-style-type: square;
+                    font-size: 17px;
+                    font-weight: 300;
+                    width: 100%
+                }
+                
+                hr {
+                    display: block;
+                    margin-top: 0.5em;
+                    margin-bottom: 0.5em;
+                    width: 111%;
+                    right: 6%;
+                    position: relative;
+                    /*margin-left: auto;
+                    margin-right: auto;*/
+                    /*border-style: inset;*/
+                    /*border-width: 15px solid black;*/
+                    padding: 2px;
+                    background-color: black;
+                    border: none;
+                }
+                
+                .content1 {
+                    border-top: 10px;
+                    width: 300px;
+                    height: 150px;
+                    position: -webkit-sticky;
+                    position: sticky;
+                    /* position: absolute;*/
+                    top: 320px;
+                    color: white;
+                    background-color: white;
+                    opacity: 0;
+                }
+                
+                #gif:hover {
+                    opacity: 100;
+                }
+                
+                small {
+                    font-size: 0.5em;
+                }
+                
+                .title {
+                    /*display: block;*/
+                    /*position: absolute;
+                /*top: 250px;
+                left: 340px;*/
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: -175px;
+                    margin-bottom: 0px;
+                    /*text-align: center;*/
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 60px;
+                    line-height: 50px;
+                    color: #222;
+                }
+                
+                .title:hover {
+                    color: white;
+                }
+                
+                .img-wrap {
+                    /*display: flex;
+                justify-content: center;
+                align-items: center;*/
+                }
+                
+                header {
+                    width: 1280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    /*position: absolute;
+                top: 0;*/
+                    margin-top: -8px;
+                }
+                
+                .content {
+                    position: relative;
+                    width: 51%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    /*position: absolute;*/
+                    /*left: 320px;
+                /*margin-left: 320px;
+                margin-right: 325px;*/
+                    margin-top: none;
+                    font-family: 'Josefin Sans', sans-serif;
+                    line-height: 150%;
+                    font-size: 1.1em;
+                    font-weight: 300;
+                    color: #222;
+                    /*padding-left: 60px;*/
+                }
+                
+                main {
+                    background-color: whitesmoke;
+                    /*width: 1280px;*/
+                }
+                
+                .achievement {
+                    font-size: 16px;
+                    line-height: 1.3em;
+                }
+                
+                .container {
+                    width: 1280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                @counter-style galaxy {
+                    system: cyclic;
+                    symbols: "\1F9F1" "\1F3DB" "\1F3D7" "\1F3D8";
+                    suffix: " ";
+                }
+                
+                ul {
+                    list-style-type: galaxy;
+                    margin-bottom: 50px;
+                }
+                
+                blockquote::before {
+                    content: '\201C';
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 130px;
+                    color: white;
+                    position: absolute;
+                    top: 38px;
+                    left: 0px;
+                }
+                
+                blockquote {
+                    font-family: 'Abril Fatface', cursive;
+                    font-size: 42px;
+                    color: white;
+                    width: 110%;
+                    background-color: #222;
+                    margin: auto;
+                    padding: 10px 10px 10px 45px;
+                    position: relative;
+                    right: 6%;
+                    /*border-left: 10px solid #222;*/
+                    /*text-align: center;*/
+                    box-sizing: border-box;
+                    line-height: 1.5em;
+                }
+                
+                blockquote:hover {
+                    /*color: #222;*/
+                    background-color: pink;
+                    cursor: pointer;
+                }
+                
+                blockquote:active {
+                    color: #222;
+                }
+                
+                h1 {
+                    margin-top: 60px;
+                    margin-bottom: 40px;
+                    text-transform: uppercase;
+                    font-size: 25px;
+                }
+                
+                h2 {
+                    font-size: 20px;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                h3 {
+                    font-family: 'Merriweather', cursive;
+                    font-size: 15px;
+                    margin-top: 0px;
+                }
+                
+                .h2small {
+                    margin-bottom: 0px;
+                }
+                
+                .experience {
+                    list-style-type: square;
+                    font-size: 17px;
+                    font-weight: 300;
+                    width: 100%
+                }
+                
+                hr {
+                    display: block;
+                    margin-top: 0.5em;
+                    margin-bottom: 0.5em;
+                    width: 111%;
+                    right: 6%;
+                    position: relative;
+                    /*margin-left: auto;
+                margin-right: auto;*/
+                    /*border-style: inset;*/
+                    /*border-width: 15px solid black;*/
+                    padding: 2px;
+                    background-color: black;
+                    border: none;
+                }
+                
+                .content1 {
+                    border-top: 10px;
+                }
+            </style>
+
+            <div class="img-wrap">
+                <img src="http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png" alt="">
+            </div>
+            <div class="title"><small>Hi, My name is</small><br>Anakin Skywalker</div>
+        </header>
+        <div id="gif"><img src="https://media1.tenor.com/images/45fde8fbe7299d1bffcf34e0e4a61462/tenor.gif"></div>
+        <div class="container">
+            <div class="content">
+                <p class="content1"> <strong>Analytical, goal oriented leader</strong> with proven track record in management and enforcement Space Fleet Operations or Frontend Development. Wide range of hands-on experience, including:
+                </p>
+                <ul>
+                    <li>Large scale construction projects oversight</li>
+                    <li>Advanced forms of mind control</li>
+                    <li>Planetary scale demolutions operations</li>
+                    <li>Fugitive recovery services</li>
+                </ul>
+                <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.o28jp79VNOWPaup4VxABEgHaEt%26pid%3DApi&f=1" target="_blank">
+                    <blockquote>
+                        <p>Together we can rule the galaxy</p>
+                    </blockquote>
+                </a>
+
+                <h1>Notable achievements</h1>
+
+                <h2>Designed, built and piloted a custom pod racer. 32 BBY Boonta Eve Classic Race Champion.
+                </h2>
+
+                <p class="achievement">In my spare time at Wald’s Parts junk shop I designed and built a Class III open cockpit Podracer capable of 588 mph top speed. Went on to win the Boonta Eve Classic race in 32 BBY - first ever win by a human. Generated documented company
+                    revenue of over 59 wupiupi during the course of my enslavement.
+                </p>
+
+                <h2>Oversight of DS1 and DS2 Orbital Battle Stations construction projects
+                </h2>
+
+                <p class="achievement">During my tenure as a Supreme Imperial Fleet Commander I was in charge of large capital construction projects for the Deep Space Fleet. Performed acceptance testing of the DS1 SuperLaser in 0 BBY by annihilating Alderaan - a terrestrial
+                    class planet in the Core Worlds region. Successfully tripled the deep space fire power of the imperial fleet in accordance with the Tarkin Doctrine before losing both projects to run-away photon torpedoes.</p> <br>
+                <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Dv2zeaU7egxUA_rVv07fmQHaFj%26pid%3DApi&f=1" target="_blank">
+                    <blockquote>
+                        <p>I find your lack of faith <br> disturbing.</p>
+                    </blockquote>
+                </a>
+                <h1>Experience</h1>
+                <h2 class="h2small">Sith Empire Headquarters, Dromund Kaas</h2>
+                <h3>Supreme Commander of Imperial Forces, Emperor’s Enforcer</h3>
+                <ul class="experience">
+                    <li>As the right-hand man to Emperor Sidious, hunted down jedi survivors and enforced the will of the empire;</li>
+                    <li>Oversaw construction of the first generation Death Star;</li>
+                    <li>First ever Imperial Supreme Commander;</li>
+                </ul>
+
+                <h2 class="h2small">Wally’s Parts / Toyarian Watto junk shop, Mos Espa, Tatooine</h2>
+                <h3>Enslaved Volunteer</h3>
+                <ul class="experience">
+                    <li>General help and front-desk retail operations at the junk shop, second hand droid parts, mechanical / droid repair services;</li>
+                    <li>Designed and piloted custom-built Podracer, ran track-side operations for the podracing team;</li>
+                </ul>
+                <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FwrharPY0a6Y1iRoJtcgYtyX42bp.jpg&f=1&nofb=1" target="_blank">
+                    <blockquote>
+                        <p>When I left you, I was but the learner; now I am the master.</p>
+                    </blockquote>
+                </a>
+
+                <h1>Formal training</h1>
+                <h2 class="h2small"> Green Fox Academy, Earth</h2>
+                <h3>Full stack developer</h3>
+
+                <ul class="experience">
+                    <li>Padawan to Knight Tojas;</li>
+                    <li>Learned programming with a specialisation in JavaScript and Front-end technologies</li>
+
+                </ul>
+
+                <hr>
+                <h1>Personal interests</h1>
+                <ul class="experience">
+                    <li>Midi-Chlorian research as a hobby;</li>
+                    <li>Recreational mind-control techniques;</li>
+                    <li>Amateur and local club podracing.</li>
+
+                </ul>
+
+
+
+
+
+            </div>
+
+        </div>
+    </body>
+</main>
+
+</html>

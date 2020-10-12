@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("erdo.jpg");
+  background-color: #ccffcc;
+  color: darkgreen;
+}
+h1,
+h2,
+title {
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 120px;
+  border: none;
+}
+
+hr {
+  display: block;
+  background-color: #004400;
+  height: 2px;
+  margin-top: 2em;
+}
+
+.right {
+  text-align: right;
+  border: 1px solid black;
+  width: 100px;
+  padding: 5px;
+}
+
+#kepek {
+  margin: auto;
+  border: none;
+}
+
+#prices {
+  margin: auto;
+  border: 2px solid black;
+}
+
+#ido {
+  text-align: center;
+  width: 120px;
+  border: 1px solid black;
+}
+
+.ejszaka {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#kirandulas {
+  display: block;
+  float: right;
+  width: 150px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  /*display: table;*/
+}
